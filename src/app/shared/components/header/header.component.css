@@ -1,0 +1,9 @@
+@media (max-width: 992px){
+    .navbar{
+        text-align: center;
+    }
+
+    .navbar-toggler{
+        width: 100%;
+    }
+}

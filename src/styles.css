@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #283038;
+    color: white;
+}
+
+.text1{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text2{
+    font-size: 18px;
+    font-weight:500;
+}
+
+.text3{
+    white-space:nowrap;
+    width: fit-content;
+}
+
+.text4{
+    color: lightblue;
+    font-style: italic;
+    font-family: "Lucida Handwriting", cursive;
+}

@@ -1,0 +1,37 @@
+img{
+    border-radius: 50%;
+    border-color: lightblue;
+    border-style: solid;
+    border-width: 4px;
+    display: block;
+    margin: 0 auto;
+    max-width: 90vw;
+}
+
+#content{
+    text-align:center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width:fit-content;
+}
+
+#content > p{
+    margin-bottom: 8px;
+}
+
+@media (min-width: 768px){
+    #content{
+        margin-top: 30%;
+        font-size: 16px;
+    }
+
+    #content > p{
+        margin-bottom: 2px;
+    }
+
+    img{
+        margin-top: 10%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
